@@ -2,7 +2,7 @@ library(readr)
 library(dplyr)
 library(stringr)
 
-cond <- "luma"
+cond <- "her2"
 files_to_read <- list.files(path = paste0("./raw/", cond), pattern = "\\.tsv$", full.names = T)
 
 all_files <- lapply(files_to_read, function(file) {
